@@ -5,7 +5,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# Твои три крутые песни
+# мои три крутые песни
 songs = {
     "petlyura": {
         "url": "http://tmpfiles.org/dl/11693421/petlyura_-_gitara_semistrunnaya_48105061.mp3",
