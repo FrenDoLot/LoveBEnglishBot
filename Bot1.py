@@ -1,8 +1,9 @@
+import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = "7909749538:AAGbE57VSiBaAgJIRqtWMQsTfT2JA9QC3Dw"
-bot = telebot.TeleBot(TOKEN)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(BOT_TOKEN)
 
 # Твои три крутые песни
 songs = {
